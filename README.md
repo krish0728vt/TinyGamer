@@ -61,20 +61,28 @@ Possible games include a Pong-style game, Snake-style game, endless runner, reac
 
 ## Bill of Materials
 
-| Item | Quantity | Estimated Cost | Link |
-|---|---:|---:|---|
-| ATtiny85 microcontroller | 1 | TBD | TBD |
-| Small OLED display | 1 | TBD | TBD |
-| Gameplay/directional buttons | 4 | TBD | TBD |
-| Action button | 1 | TBD | TBD |
-| Power button/switch | 1 | TBD | TBD |
-| Reset button | 1 | TBD | TBD |
-| Coin cell battery | 1 | TBD | TBD |
-| Coin cell holder | 1 | TBD | TBD |
-| Custom PCB | 1 | TBD | TBD |
-| Passive components | Various | TBD | TBD |
+| ID | Item | Designator | Qty | Package | Manufacturer Part | Unit Cost | Total Cost | Link |
+|---:|---|---|---:|---|---|---:|---:|---|
+| 1 | Buzzer | BUZZER1 | 1 | BUZZER-4.0X4.0-2P-SMD | SMT-0440-T-HT-R | $3.21 | $3.21 | [DigiKey](https://www.digikey.com/en/products/detail/pui-audio-inc/SMT-0440-T-HT-R/13165922) |
+| 2 | 2k | R7, R9 | 2 | 0603 | RC0603FR-072KL | $0.11 | $0.22 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-072KL/727009) |
+| 3 | 20k | R6 | 1 | 0603 | RC0603FR-0720KL | $0.10 | $0.10 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0720KL/727040) |
+| 4 | 4.7k | R3, R2 | 2 | 0603 | RC0603FR-074K7L | $0.10 | $0.20 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212) |
+| 5 | 10k | R1, R8 | 2 | 0603 | RC0201FR-0710KL | $0.10 | $0.20 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0201FR-0710KL/1948870) |
+| 6 | 3.9k | R5 | 1 | 0603 | RC0603FR-073K9L | $0.11 | $0.11 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K9L/727136) |
+| 7 | 8.2k | R4 | 1 | 0603 | RC0201FR-078K2L | $0.10 | $0.10 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0201FR-078K2L/3202425) |
+| 8 | Battery Holder | B1 | 1 | BATTERY-3 | BHSD-2032-SM | $1.68 | $1.68 | [DigiKey](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices-/BHSD-2032-SM/2647817) |
+| 9 | OLED | OLED | 1 | OLED | OLED | $1.00 | $1.00 | [AliExpress](https://www.aliexpress.us/item/3256811978952578.html) |
+| 10 | Tackel Switch | ACTION, UP, DOWN, RIGHT, LEFT | 5 | 6.00mm x 6.00mm | TS04-66-50-BK-260-SMT | $0.20 | $1.00 | [DigiKey](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS04-66-50-BK-260-SMT/15634371) |
+| 11 | ATtiny x5-20SU | U1 | 1 | SOIC-8_208MIL | ATTINY85-20SU | $1.50 | $1.50 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATTINY85-20SU/735470) |
+| 12 | Slide Switch | POWER | 1 | SLIDE SWITCH | EG1270 | $1.09 | $1.09 | [DigiKey](https://www.digikey.com/en/products/detail/e-switch/EG1270/6076) |
+| 13 | 3x6x2.5mm | RESET | 1 | KEY-3.0*6.0 | PTS636SM25FSMTR LFS | $0.28 | $0.28 | [DigiKey](https://www.digikey.com/en/products/detail/c-k/PTS636SM25FSMTR-LFS/10071742) |
+| 14 | 100nF | C1 | 1 | 0603 | CL10E104KC8VPNC | $0.32 | $0.32 | [DigiKey](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486) |
+| 15 | 47uF | C2 | 1 | 1206 | CL31A476MPHNNNE | $0.63 | $0.63 | [DigiKey](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A476MPHNNNE/3888721) |
+| 16 | Battery | — | 1 | - | CR2032 | $0.39 | $0.39 | [DigiKey](https://www.digikey.com/en/products/detail/panasonic-energy/CR2032/31939) |
+| 17 | SOIC 8-Pin Test Clip | — | 1 | - | 5315 | $14.95 | $14.95 | [Adafruit](https://www.adafruit.com/product/5315) |
 
-**Estimated Total Cost:** TBD
+**Estimated Total Cost:** $26.98
+
 
 ## Timeline and Milestones
 
