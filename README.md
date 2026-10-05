@@ -3,7 +3,7 @@
 ## Project Owner
 
 **Name:** Krish Shah  
-**Virginia Tech Email:** TBD
+**Virginia Tech Email:** krish0728@vt.edu
 
 ## Project Overview
 
