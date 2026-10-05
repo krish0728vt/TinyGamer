@@ -1,90 +1,123 @@
-# Project Name
-
-> Replace this title with the name of your project.
+# Tiny Gamer
 
 ## Project Owner
 
-**Name:** Your Name  
-**Virginia Tech Email:** yourpid@vt.edu
+**Name:** Krish Shah  
+**Virginia Tech Email:** TBD
 
 ## Project Overview
 
-Provide a clear description of what you are building and the overall goal of the project.
+Tiny Gamer is a small handheld gaming device built around the ATtiny85 microcontroller. The goal is to create a compact, battery-powered system that can run simple games on a small OLED display using a custom PCB.
 
-Include enough detail for someone unfamiliar with the project to understand what it does and why you are building it.
+The device uses four gameplay/directional buttons, one action button, a power control, and a reset button. It is powered by a coin cell battery and programmed using the Arduino development environment.
+
+The exact games are still being selected and will be chosen based on the memory and processing limits of the ATtiny85.
 
 ## What I Hope to Learn
 
-Describe the technical skills, concepts, or experience you hope to gain from completing this project.
+Through this project, I hope to gain more hands-on experience with:
+
+- ATtiny85 embedded programming
+- OLED graphics and simple game development
+- PCB design and hardware bring-up
+- Button input and user-interface design
+- Coin-cell power constraints
+- Hardware/software integration
+- Debugging a complete embedded system
 
 ## Design and Implementation
 
-Document the design of your project as it develops.
+### Hardware
 
-This may include:
+- ATtiny85 microcontroller
+- Small OLED display
+- Custom PCB designed in EasyEDA
+- 4 gameplay/directional buttons
+- 1 action button
+- 1 power button/switch
+- 1 reset button
+- Coin cell battery and holder
 
-- Block diagrams
-- Circuit schematics
-- PCB designs
-- CAD models
-- Software architecture
-- Hardware selection
-- Calculations
-- Testing methods
+### Software
 
-Explain major design decisions and why you made them.
+The device will be programmed using the Arduino development environment. The game software will be kept lightweight so that it can run within the ATtiny85's limited memory and processing resources.
+
+### Current Design Status
+
+The PCB design has been completed in EasyEDA and is ready to order.
+
+### Planned Implementation
+
+1. Order the custom PCB.
+2. Assemble and inspect the board.
+3. Verify power operation.
+4. Test the ATtiny85 and OLED display.
+5. Test all buttons and reset/power functions.
+6. Select and implement simple games.
+7. Debug and optimize the software for the ATtiny85.
+8. Complete final system testing.
+
+Possible games include a Pong-style game, Snake-style game, endless runner, reaction game, or another small arcade-style game.
 
 ## Bill of Materials
 
-Document the major components and materials used for the project.
-
 | Item | Quantity | Estimated Cost | Link |
 |---|---:|---:|---|
-| Component | 1 | $0.00 | Link |
+| ATtiny85 microcontroller | 1 | TBD | TBD |
+| Small OLED display | 1 | TBD | TBD |
+| Gameplay/directional buttons | 4 | TBD | TBD |
+| Action button | 1 | TBD | TBD |
+| Power button/switch | 1 | TBD | TBD |
+| Reset button | 1 | TBD | TBD |
+| Coin cell battery | 1 | TBD | TBD |
+| Coin cell holder | 1 | TBD | TBD |
+| Custom PCB | 1 | TBD | TBD |
+| Passive components | Various | TBD | TBD |
 
-**Estimated Total Cost:** $0.00
+**Estimated Total Cost:** TBD
 
 ## Timeline and Milestones
 
-Outline the major stages of the project and update them as work progresses.
-
 | Milestone | Target Date | Status |
 |---|---|---|
-| Project planning | Date | Not Started |
-| Initial design | Date | Not Started |
-| Prototype | Date | Not Started |
-| Testing | Date | Not Started |
-| Project completion | Date | Not Started |
+| Project planning | October 2026 | Complete |
+| PCB design in EasyEDA | October 2026 | Complete |
+| Order PCB | October 2026 | In Progress |
+| PCB assembly and hardware bring-up | TBD | Not Started |
+| OLED and button testing | TBD | Not Started |
+| Game development | TBD | Not Started |
+| Final testing | TBD | Not Started |
+| Project completion | TBD | Not Started |
 
 ## Progress Log
 
-Use this section to document meaningful progress throughout the project.
+### 2026-10-05
 
-### YYYY-MM-DD
-
-Describe what you worked on, what was completed, any problems you encountered, and what you plan to work on next.
+- Defined the Tiny Gamer project concept.
+- Selected the ATtiny85 as the main microcontroller.
+- Selected a small OLED display for the user interface.
+- Designed the custom PCB in EasyEDA.
+- PCB is ready to order.
+- Next step: order the PCB and begin hardware bring-up after it arrives.
 
 ## Project Files
 
-Organize and document important project files in this repository. Depending on the project, this may include:
+Project files will be added as the project develops. These may include:
 
-- Source code
-- KiCad files
-- Schematics
-- PCB layouts
-- CAD files
+- EasyEDA PCB design files
+- Schematic exports
+- Gerber files
+- Arduino source code
 - Datasheets
 - Test results
-- Documentation
+- Project documentation
 
 ## Useful Links
 
-Add any references, datasheets, documentation, tutorials, or other resources relevant to the project.
+Useful datasheets, programming references, and component links will be added as components and games are finalized.
 
 ## Project Image
 
-Replace the `hero.png` file in the root of this repository with an image representing your project.
+A project image will be added later.
 
-**Keep the filename as `hero.png`.**
-
-This image is used as the project cover image on the AMP Lab website.
+The final cover image will be stored in the repository root as `hero.png` so it can be displayed correctly on the AMP Lab website.
